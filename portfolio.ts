@@ -13,7 +13,7 @@ import {
 export const greetings: GreetingsType = {
   name: 'Ingrid Santana',
   title: 'Ingrid Santana',
-  description: `Bem-vindos!\n\nEste espaço reflete a minha paixão pelo mundo microscópico e o meu compromisso com projetos que conectam ciência, tecnologia e inovação.\n\nMinha paixão pela ciência modulou positivamente cada etapa da minha jornada.\n\nDessa forma, quero continuar aplicando as minhas experiências para transformar o complexo em simples. Assim, promovemos conhecimentos acessíveis e resultados duradouros.\n\nDescubra como as minhas experiências e ideias podem te ajudar!`,
+  description: `Bem-vindos!\n\nEste espaço reflete a minha paixão pelo mundo microscópico e o meu compromisso com projetos que conectam ciência, tecnologia e inovação.\n\nDessa forma, quero continuar aplicando os meus conhecimentos para transformar o complexo em simples.\n\nDescubra como as minhas experiências e ideias podem te ajudar!`,
   resumeLink:
     'https://drive.google.com/drive/folders/1qCLHGn-ulIjHwWqavlThaUTDLNTNjO4U',
 };
