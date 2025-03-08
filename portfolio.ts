@@ -39,14 +39,32 @@ export const skillsSection: SkillsSectionType = {
       lottieAnimationFile: '/lottie/skills/working.json',
       skills: [
         emoji(
-          '🎈 Experiência de trabalho em diferentes áreas das ciências biológicas'
+          '🎈 Simplifico conceitos científicos complexos.'
         ),
         emoji(
-          '🎈 Encontros remotos para facilitar o aprendizado através de conversas didáticas'
+          '🎈 Desenvolvo materiais para projetos e metodologias científicas.'
         ),
-        emoji('🎈 Escrita e revisão de documentos técnico científicos'),
+         emoji(
+          '🎈 Conecto teoria à prática com exemplos aplicados.'
+        ),
+         emoji(
+          '🎈 Auxilio na transição acadêmica para o corporativo.'
+        ),
+         emoji(
+          '🎈 Ofereço mentorias individuais e para equipes.'
+        ),
+         emoji(
+          '🎈 Ministro workshops e palestras sobre ciência e projetos de pesquisa.'
+        ),
+         emoji(
+          '🎈 Analiso e apresento materiais científicos densos.'
+        ),
+         emoji(
+          '🎈 Crio estudos de caso e desafios interativos.'
+        ),
+        emoji('🎈 Dou aulas e monitoria em temas especializados.'),
         emoji(
-          '🎈 Desenvolvimento de projetos, relatórios, roteiros, materiais didáticos, apresentações e outros.'
+          '🎈 Experiência em diferentes áreas das ciências biológicas.'
         ),
       ],
     },
