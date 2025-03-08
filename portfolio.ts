@@ -35,71 +35,8 @@ export const skillsSection: SkillsSectionType = {
   subTitle: 'DESENVOLVO SOLUÇÕES ATRAVÉS DA ENGENHARIA DE SOFTWARE',
   data: [
     {
-      title: 'Fullstack Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json',
-      skills: [
-        emoji('⚡ Desenvolvendo soluções através do Javascript/Typescript'),
-        emoji(
-          '⚡ Construindo Aplicativos de Página Única (SPA) responsivos e PWA em React.js/Next.js'
-        ),
-        emoji(
-          '⚡ Desenvolvendo APIs e gerenciando banco de dados com Node.js/MongoDB/Supabase '
-        ),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'HTML-5',
-          iconifyTag: 'vscode-icons:file-type-html',
-        },
-        {
-          skillName: 'CSS-3',
-          iconifyTag: 'vscode-icons:file-type-css',
-        },
-        {
-          skillName: 'Javascript',
-          iconifyTag: 'devicon:javascript',
-        },
-        {
-          skillName: 'Typescript',
-          iconifyTag: 'devicon:typescript',
-        },
-        {
-          skillName: 'Reactjs',
-          iconifyTag: 'vscode-icons:file-type-reactjs',
-        },
-        {
-          skillName: 'Redux',
-          iconifyTag: 'logos:redux',
-        },
-        {
-          skillName: 'Nextjs',
-          iconifyTag: 'vscode-icons:file-type-light-next',
-        },
-        {
-          skillName: 'NodeJS',
-          iconifyTag: 'devicon:nodejs-wordmark',
-        },
-        {
-          skillName: 'MongoDB',
-          iconifyTag: 'vscode-icons:file-type-mongo',
-        },
-        {
-          skillName: 'Mongoose',
-          iconifyTag: 'devicon:mongoose-wordmark',
-        },
-        {
-          skillName: 'NPM',
-          iconifyTag: 'logos:npm-icon',
-        },
-        {
-          skillName: 'Yarn',
-          iconifyTag: 'logos:yarn',
-        },
-      ],
-    },
-    {
       title: 'Arquitetura Cloud',
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json',
+      lottieAnimationFile: '/lottie/skills/lab.json',
       skills: [
         emoji('⚡ Experiência de trabalho em plataformas de nuvem'),
         emoji(

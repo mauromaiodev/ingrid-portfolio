@@ -28,7 +28,7 @@ const Navigation = () => {
     <>
       <header className="header-global">
         <Navbar
-          className="navbar-main navbar-transparent navbar-light headroom"
+          className="navbar-main navbar-transparent navbar-grings headroom"
           expand="lg"
           id="navbar-main"
         >

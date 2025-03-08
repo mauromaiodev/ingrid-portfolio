@@ -14433,6 +14433,10 @@ button.bg-lighter:focus {
 	background: linear-gradient(35deg, #172b4d 0, #1a174d 100%) !important;
 }
 
+.bg-gradient-grings {
+	background: linear-gradient(35deg, #ff5757 0, #8c52ff 100%) !important;
+}
+
 .bg-gradient-white {
 	background: linear-gradient(35deg, #fff 0, white 100%) !important;
 }
@@ -17375,6 +17379,10 @@ textarea[resize="horizontal"] {
 
 .navbar-light .navbar-brand {
 	color: #32325d;
+}
+
+.navbar-grings {
+	color: linear-gradient(35deg, #ff5757 0, #8c52ff 100%) !important;
 }
 
 .navbar-nav .nav-item .media:not(:last-child) {
@@ -20481,7 +20489,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 .headroom--not-top {
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
-	background-color: #172b4d !important;
+	background: linear-gradient(0deg, #ff5757 0, #8c52ff 100%) !important;
 	box-shadow: 0 1px 10px rgba(130, 130, 134, 0.1);
 }
 
