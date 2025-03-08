@@ -19,7 +19,7 @@ export const greetings: GreetingsType = {
 };
 
 export const openSource = {
-  githubUserName: 'mauromaiodev',
+  githubUserName: 'ingridsza',
 };
 
 export const contact = {};
