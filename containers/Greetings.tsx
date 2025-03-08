@@ -32,7 +32,12 @@ const Greetings = () => {
                   <h1 className="display-3 text-white">
                     {greetings.title + ' '}
                   </h1>
-                  <p className="lead text-white">{greetings.description}</p>
+                  <p
+                    className="lead text-white"
+                    style={{ whiteSpace: 'pre-line' }}
+                  >
+                    {greetings.description}
+                  </p>
                   <SocialLinks />
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">
