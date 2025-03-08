@@ -32,10 +32,10 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'O que faço?',
-  subTitle: 'Combino ciência e estratégia para gerar resultados!',
+  subTitle: 'Assessoria e Consultoria Científica',
   data: [
     {
-      title: 'Assessoria e Consultoria Científica',
+      title: 'Combinando ciência e estratégia para gerar resultados!',
       lottieAnimationFile: '/lottie/skills/lab.json',
       skills: [
         emoji('🎈 Experiência de trabalho em diferentes áreas das ciências biológicas'),
@@ -208,14 +208,24 @@ export const projects: ProjectType[] = [
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: 'Maurício Dias',
+    name: 'Bruno Paredes',
     feedback:
-      'Mauro é um profissional capaz e cresceu muito neste primeiro trimestre do ano de 2023. Com entregas dentro do prazo, bastante comunicativo, proativo e tem tudo para ser um profissional de alta performance, e quando tem tempo em suas tarefas, vai além e não se contenta em fazer apenas o básico. Aceita desafios e as cumpre, não tem medo de aprender e de se desenvolver.',
+      'Ingrid é uma profissional muito dedicada ao seu trabalho, realizando suas tarefas seguindo os protocolos rigidamente. Demonstra grande interesse em aprender temas novos e busca se aprofundar no assunto. Possui grande capacidade crítica e analítica, o que lhe permite elaborar propostas para atingir seus objetivos e resolver qualquer dificuldade à sua frente, reagindo ativamente aos desafios. Possui habilidades sociais ótimas, destacando sua disponibilidade em ajudar seus colegas de trabalho sempre que possível, tornando fácil o pleno convívio em ambiente de trabalho.',
+  },
+   {
+    name: 'Bruno Silva',
+    feedback:
+      'Sempre muito habilidosa, focada e organizada. Visualizei as competências na área acadêmica e profissional.',
   },
   {
-    name: 'Rodrigo Godinho',
+    name: 'Kleide Santana',
     feedback:
-      'Trabalhei diretamente com Mauro e pude notar o seu amadurecimento durante a sua jornada. Sendo sempre proativo e muito estudioso, nunca teve um desafio que o abalasse. Me chamou atenção sua humildade, resiliência, empatia e excelente capacidade de comunicação.',
+      'A Ingrid é extremamente profissional, super focada, com inúmeras habilidades, comprometida com os seus resultados e da sua equipe, senso de pertencimento, organização impecável e sabe realizar um ótimo trabalho em equipe. Ela busca conhecimento e esta em constante atualização. Voa Ingrid!',
+  },
+     {
+    name: 'Vanessa Gonçalves',
+    feedback:
+      'Sempre focada nas entregas e comprometida com o resultado.',
   },
 ];
 
