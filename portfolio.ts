@@ -13,7 +13,15 @@ import {
 export const greetings: GreetingsType = {
   name: 'Ingrid Santana',
   title: 'Ingrid Santana',
-  description: `teste deply 1/ Web Developer com mais de quatro anos de experiência em construir aplicações. Tenho experiência em aplicações web com React, Vue, Angular, Next.js, Nuxt.js, Node.js e Java.`,
+  description: `Olá! Sejam bem-vindos!
+
+Desde criança o mundo microscópico me encoraja a viver a ciência. Por isso, ao impulsionar o desenvolvimento científico e tecnológico brasileiro, através das minhas especialidades, sinto que alcanço meu propósito de vida, indo além de uma experiência profissional.
+
+Hoje, sou uma mulher multidisciplinar, resiliente e estrategista, com habilidades de organização e oratória desenvolvidas com a finalidade de liderar pessoas em projetos de ciência, tecnologia e inovação.
+
+Sendo assim, também ajudo acadêmicos através de aulas objetivas e didáticas, tornando conteúdos densos e complexos em conversas do dia a dia que tornam o assunto central algo simples de entender.
+
+Sendo assim, como eu posso te ajudar?`,
   resumeLink:
     'https://drive.google.com/file/d/1sg34EV7I5ru2Ob3jEFGkcgBMV0Xtnb1y/view?usp=drive_link',
 };
