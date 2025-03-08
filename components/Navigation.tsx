@@ -148,6 +148,38 @@ const Navigation = () => {
                     </NavLink>
                   </NavItem>
                 )}
+                {socialLinks.whatsapp && (
+                  <NavItem>
+                    <NavLink
+                      rel="noopener"
+                      aria-label="Whatsapp"
+                      className="nav-link-icon"
+                      href={socialLinks.whatsapp}
+                      target="_blank"
+                    >
+                      <i className="fa fa-whatsapp" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Whatsapp
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                )}
+                {socialLinks.gmail && (
+                  <NavItem>
+                    <NavLink
+                      rel="noopener"
+                      aria-label="Gmail"
+                      className="nav-link-icon"
+                      href={socialLinks.gmail}
+                      target="_blank"
+                    >
+                      <i className="fa fa-envelope" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Gmail
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                )}
               </Nav>
             </UncontrolledCollapse>
           </Container>

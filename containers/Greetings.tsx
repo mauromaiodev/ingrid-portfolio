@@ -1,10 +1,15 @@
 import { useEffect } from 'react';
 import { Button, Col, Container, Row } from 'reactstrap';
-import GreetingLottie from '../components/DisplayLottie';
 import SocialLinks from '../components/SocialLinks';
 import { greetings } from '../portfolio';
+import { GithubUserType } from '../types';
 
-const Greetings = () => {
+// Modificando o componente para aceitar o githubProfileData como prop
+const Greetings = ({
+  githubProfileData,
+}: {
+  githubProfileData: GithubUserType;
+}) => {
   useEffect(() => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement!.scrollTop = 0;
@@ -30,7 +35,7 @@ const Greetings = () => {
               <Row>
                 <Col lg="6">
                   <h1 className="display-3 text-white">
-                    {greetings.title + ' '}
+                    {greetings.title ?? undefined}
                   </h1>
                   <p
                     className="lead text-white"
@@ -57,7 +62,18 @@ const Greetings = () => {
                   )}
                 </Col>
                 <Col lg="6">
-                  <GreetingLottie animationPath="/lottie/skills/working.json" />
+                  {githubProfileData && githubProfileData.avatar_url && (
+                    <img
+                      src={githubProfileData.avatar_url}
+                      style={{
+                        width: '300px',
+                        height: '300px',
+                        objectFit: 'cover',
+                      }}
+                      alt="Avatar"
+                      className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                    />
+                  )}
                 </Col>
               </Row>
             </div>

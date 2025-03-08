@@ -15,7 +15,7 @@ export type SocialLinksType = {
 
 export type GreetingsType = {
   name: string;
-  title: string;
+  title?: string;
   description?: string;
   resumeLink?: string;
 };
@@ -31,7 +31,7 @@ type SkillType = {
   title: string;
   lottieAnimationFile: string;
   skills: React.ReactNode[] | string[];
-  softwareSkills: SoftwareSkillType[];
+  softwareSkills?: SoftwareSkillType[];
 };
 
 export type SkillsSectionType = {

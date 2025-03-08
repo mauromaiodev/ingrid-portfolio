@@ -1,5 +1,5 @@
 import { Icon } from '@iconify/react';
-import React, { Fragment } from 'react';
+import { Fragment } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Col, Container, Row, UncontrolledTooltip } from 'reactstrap';
 import DisplayLottie from '../components/DisplayLottie';
@@ -23,7 +23,7 @@ const Skills = () => {
                 <Fade right duration={2000}>
                   <h3 className="h3 mb-2">{section.title}</h3>
                   <div className="d-flex justify-content-center flex-wrap mb-2">
-                    {section.softwareSkills.map((skill, i) => {
+                    {section?.softwareSkills?.map((skill, i) => {
                       return (
                         <Fragment key={i}>
                           <div

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from 'reactstrap';
 import { socialLinks } from '../portfolio';
 
@@ -30,20 +29,6 @@ const SocialLinks = () => {
         >
           <span className="btn-inner--icon">
             <i className="fa fa-linkedin" />
-          </span>
-        </Button>
-      )}
-      {socialLinks.github && (
-        <Button
-          className="btn-icon-only rounded-circle ml-1"
-          color="github"
-          href={socialLinks.github}
-          rel="noopener"
-          aria-label="Github"
-          target="_blank"
-        >
-          <span className="btn-inner--icon">
-            <i className="fa fa-github" />
           </span>
         </Button>
       )}
@@ -86,6 +71,34 @@ const SocialLinks = () => {
         >
           <span className="btn-inner--icon">
             <i className="fa fa-twitter" />
+          </span>
+        </Button>
+      )}
+      {socialLinks.whatsapp && (
+        <Button
+          className="btn-icon-only rounded-circle"
+          color="whatsapp"
+          href={socialLinks.whatsapp}
+          target="_blank"
+          rel="noopener"
+          aria-label="Whatsapp"
+        >
+          <span className="btn-inner--icon">
+            <i className="fa fa-whatsapp" />
+          </span>
+        </Button>
+      )}
+      {socialLinks.gmail && (
+        <Button
+          className="btn-icon-only rounded-circle"
+          color="gmail"
+          href={socialLinks.gmail}
+          target="_blank"
+          rel="noopener"
+          aria-label="Gmail"
+        >
+          <span className="btn-inner--icon">
+            <i className="fa fa-envelope" />
           </span>
         </Button>
       )}

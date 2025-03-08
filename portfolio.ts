@@ -12,7 +12,6 @@ import {
 
 export const greetings: GreetingsType = {
   name: 'Ingrid Santana',
-  title: 'Ingrid Santana',
   description: `Bem-vindos!\n\nEste espaço reflete a minha paixão pelo mundo microscópico e o meu compromisso com o progresso da ciência, tecnologia e inovação.\n\nDessa forma, quero seguir utilizando meus conhecimentos ao ajudar estudantes e acadêmicos a simplificar o que é complexo.`,
   resumeLink:
     'https://drive.google.com/drive/folders/1qCLHGn-ulIjHwWqavlThaUTDLNTNjO4U',
@@ -25,9 +24,11 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  instagram: 'https://www.instagram.com/mauromaioficial/',
-  github: 'https://github.com/mauromaiodev',
+  whatsapp:
+    'https://wa.me/5571987298417?text=Oi!%20Gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os.',
   linkedin: 'https://www.linkedin.com/in/ingridsantana-cientista/',
+  gmail:
+    'mailto:ingridsantsza@gmail.com?subject=Oi!%20Gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os.',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -38,32 +39,16 @@ export const skillsSection: SkillsSectionType = {
       title: 'Combinando ciência e estratégia para gerar resultados!',
       lottieAnimationFile: '/lottie/skills/working.json',
       skills: [
-        emoji('🎈 Experiência de trabalho em diferentes áreas das ciências biológicas'),
-        emoji('🎈 Encontros remotos para facilitar o aprendizado através de conversas didáticas'),
         emoji(
-          '🎈 Escrita e revisão de documentos técnico científicos'
+          '🎈 Experiência de trabalho em diferentes áreas das ciências biológicas'
         ),
+        emoji(
+          '🎈 Encontros remotos para facilitar o aprendizado através de conversas didáticas'
+        ),
+        emoji('🎈 Escrita e revisão de documentos técnico científicos'),
         emoji(
           '🎈 Desenvolvimento de projetos, relatórios, roteiros, materiais didáticos, apresentações e outros.'
         ),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'VERCEL',
-          iconifyTag: 'logos:vercel',
-        },
-        {
-          skillName: 'AWS',
-          iconifyTag: 'logos:aws',
-        },
-        {
-          skillName: 'Github',
-          iconifyTag: 'akar-icons:github-fill',
-        },
-        {
-          skillName: 'Docker',
-          iconifyTag: 'logos:docker-icon',
-        },
       ],
     },
   ],
@@ -222,10 +207,9 @@ export const feedbacks: FeedbackType[] = [
     feedback:
       'Sempre muito habilidosa, focada e organizada. Visualizei as competências na área acadêmica e profissional.',
   },
-     {
+  {
     name: 'Vanessa Gonçalves',
-    feedback:
-      'Sempre focada nas entregas e comprometida com o resultado.',
+    feedback: 'Sempre focada nas entregas e comprometida com o resultado.',
   },
 ];
 
@@ -236,5 +220,10 @@ export const seoData: SEODataType = {
   description: 'Consultora Científica.',
   author: 'Ingrid Santana',
   url: 'https://ingridsantana.vercel.app/',
-  keywords: ['Ingrid Santana', 'ingridsantana', 'Portfolio', 'Ingrid Santana Portfolio'],
+  keywords: [
+    'Ingrid Santana',
+    'ingridsantana',
+    'Portfolio',
+    'Ingrid Santana Portfolio',
+  ],
 };
