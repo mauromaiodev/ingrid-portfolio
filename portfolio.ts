@@ -36,7 +36,7 @@ export const skillsSection: SkillsSectionType = {
   data: [
     {
       title: 'Combinando ciência e estratégia para gerar resultados!',
-      lottieAnimationFile: '/lottie/skills/lab.json',
+      lottieAnimationFile: '/lottie/skills/working.json',
       skills: [
         emoji('🎈 Experiência de trabalho em diferentes áreas das ciências biológicas'),
         emoji('🎈 Encontros remotos para facilitar o aprendizado através de conversas didáticas'),
