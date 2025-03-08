@@ -32,11 +32,10 @@ export const socialLinks: SocialLinksType = {
 };
 
 export const skillsSection: SkillsSectionType = {
-  title: 'O que faço?',
-  subTitle: 'Assessoria e Consultoria Científica',
+  title: 'Assessoria e Consultoria Científica',
   data: [
     {
-      title: 'Combinando ciência e estratégia para gerar resultados!',
+      title: 'Aos estudantes e acadêmicos',
       lottieAnimationFile: '/lottie/skills/working.json',
       skills: [
         emoji(

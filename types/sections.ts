@@ -36,7 +36,7 @@ type SkillType = {
 
 export type SkillsSectionType = {
   title: string;
-  subTitle: string;
+  subTitle?: string;
   data: SkillType[];
 };
 
