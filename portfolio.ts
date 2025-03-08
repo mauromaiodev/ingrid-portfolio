@@ -212,15 +212,15 @@ export const feedbacks: FeedbackType[] = [
     feedback:
       'Ingrid é uma profissional muito dedicada ao seu trabalho, realizando suas tarefas seguindo os protocolos rigidamente. Demonstra grande interesse em aprender temas novos e busca se aprofundar no assunto. Possui grande capacidade crítica e analítica, o que lhe permite elaborar propostas para atingir seus objetivos e resolver qualquer dificuldade à sua frente, reagindo ativamente aos desafios. Possui habilidades sociais ótimas, destacando sua disponibilidade em ajudar seus colegas de trabalho sempre que possível, tornando fácil o pleno convívio em ambiente de trabalho.',
   },
-   {
-    name: 'Bruno Silva',
-    feedback:
-      'Sempre muito habilidosa, focada e organizada. Visualizei as competências na área acadêmica e profissional.',
-  },
   {
     name: 'Kleide Santana',
     feedback:
       'A Ingrid é extremamente profissional, super focada, com inúmeras habilidades, comprometida com os seus resultados e da sua equipe, senso de pertencimento, organização impecável e sabe realizar um ótimo trabalho em equipe. Ela busca conhecimento e esta em constante atualização. Voa Ingrid!',
+  },
+  {
+    name: 'Bruno Silva',
+    feedback:
+      'Sempre muito habilidosa, focada e organizada. Visualizei as competências na área acadêmica e profissional.',
   },
      {
     name: 'Vanessa Gonçalves',
