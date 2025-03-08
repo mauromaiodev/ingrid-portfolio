@@ -35,15 +35,16 @@ export const skillsSection: SkillsSectionType = {
   subTitle: 'Combino ciência e estratégia para gerar resultados!',
   data: [
     {
-      title: 'Arquitetura Cloud',
+      title: 'Assessoria e Consultoria Científica',
       lottieAnimationFile: '/lottie/skills/lab.json',
       skills: [
-        emoji('⚡ Experiência de trabalho em plataformas de nuvem'),
+        emoji('🎈 Experiência de trabalho em diferentes áreas das ciências biológicas'),
+        emoji('🎈 Encontros remotos para facilitar o aprendizado através de conversas didáticas'),
         emoji(
-          '⚡ Hospedagem e manutenção de sites em instâncias de máquinas virtuais'
+          '🎈 Escrita e revisão de documentos técnico científicos'
         ),
         emoji(
-          '⚡ Construindo pipelines de CI/CD para testes e implantação automatizados usando o Github Actions'
+          '🎈 Desenvolvimento de projetos, relatórios, roteiros, materiais didáticos, apresentações e outros.'
         ),
       ],
       softwareSkills: [
