@@ -14,7 +14,7 @@ export const greetings: GreetingsType = {
   name: 'Ingrid Santana',
   description: `Bem-vindos!\n\nEste espaço reflete a minha paixão pelo mundo microscópico e o meu compromisso com o progresso da ciência, tecnologia e inovação.\n\nDessa forma, quero seguir utilizando meus conhecimentos ao ajudar estudantes e acadêmicos a simplificar o que é complexo.`,
   resumeLink:
-    'https://drive.google.com/drive/folders/1qCLHGn-ulIjHwWqavlThaUTDLNTNjO4U',
+    'https://drive.google.com/file/d/1qHR7uMPsZcn7iSR0fO8cgDHdV7pk8gmi/view?usp=sharing',
 };
 
 export const openSource = {
