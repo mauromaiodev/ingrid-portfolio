@@ -75,19 +75,19 @@ export const educationInfo: EducationType[] = [
     duration: 'Jan 2016 - Dez 2019',
   },
   {
-    schoolName: 'Universidade Salvador - UNIFACS',
-    subHeader: 'Bacharelado em Biomedicina',
-    duration: 'Jan 2016 - Dez 2019',
+    schoolName: 'Universidade Federal da Bahia - UFBA',
+    subHeader: 'Mestrado em Patologia Humana Experimental',
+    duration: 'Jul 2020 - Out 2022',
   },
   {
-    schoolName: 'Universidade Salvador - UNIFACS',
-    subHeader: 'Bacharelado em Biomedicina',
-    duration: 'Jan 2016 - Dez 2019',
+    schoolName: 'Centro Universitário UNIFECAF',
+    subHeader: 'MBA em Gestão de Projetos',
+    duration: 'Ago 2023 - Dez 2023',
   },
   {
-    schoolName: 'Universidade Salvador - UNIFACS',
-    subHeader: 'Bacharelado em Biomedicina',
-    duration: 'Jan 2016 - Dez 2019',
+    schoolName: 'Veduca',
+    subHeader: 'Curso Intermediário em Gestão da Inovação',
+    duration: 'Jan 2024 - Mar 2024',
   },
 ];
 
@@ -221,9 +221,9 @@ export const feedbacks: FeedbackType[] = [
 export const showContactUs: boolean = true;
 
 export const seoData: SEODataType = {
-  title: 'Mauro Maio',
-  description: 'Software Engineer.',
-  author: 'Mauro Maio',
-  url: 'https://mauromaio.vercel.app/',
-  keywords: ['Mauro Maio', 'mauromaiodev', 'Portfolio', 'Mauro Maio Portfolio'],
+  title: 'Ingrid Santana',
+  description: 'Consultora Científica.',
+  author: 'Ingrid Santana',
+  url: 'https://ingridsantana.vercel.app/',
+  keywords: ['Ingrid Santana', 'ingridsantana', 'Portfolio', 'Ingrid Santana Portfolio'],
 };
