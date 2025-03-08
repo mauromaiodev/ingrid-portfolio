@@ -27,7 +27,7 @@ export const contact = {};
 export const socialLinks: SocialLinksType = {
   instagram: 'https://www.instagram.com/mauromaioficial/',
   github: 'https://github.com/mauromaiodev',
-  linkedin: 'https://www.linkedin.com/in/mauromaio-dev',
+  linkedin: 'https://www.linkedin.com/in/ingridsantana-cientista/',
 };
 
 export const skillsSection: SkillsSectionType = {
