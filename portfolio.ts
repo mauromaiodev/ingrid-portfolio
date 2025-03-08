@@ -73,22 +73,21 @@ export const educationInfo: EducationType[] = [
     schoolName: 'Universidade Salvador - UNIFACS',
     subHeader: 'Bacharelado em Biomedicina',
     duration: 'Jan 2016 - Dez 2019',
-    desc: '...... para atender às necessidades específicas de organizações e usuários.',
-    descBullets: [
-      'Construção efetiva de.....;',
-      '...... e o uso de tecnologias específicas para a criação do sistema;',
-    ],
   },
   {
-    schoolName: 'Universidade Federal da Bahia - UFBA',
-    subHeader: 'Mestrado em Patologia Humana Experimental',
-    duration: 'Jul 2020 - Out 2023',
-    desc: '......ackend, além do app mobile (Android e iOS) com React Native.',
-    descBullets: [
-      '......anco de dados PostgreSQL, MongoDB (noSQL) em containers Docker.',
-      '......ed Components para estilização dos componentes de interface gráfica.',
-      '.......I e Redux para o gerenciamento de estados do React.',
-    ],
+    schoolName: 'Universidade Salvador - UNIFACS',
+    subHeader: 'Bacharelado em Biomedicina',
+    duration: 'Jan 2016 - Dez 2019',
+  },
+  {
+    schoolName: 'Universidade Salvador - UNIFACS',
+    subHeader: 'Bacharelado em Biomedicina',
+    duration: 'Jan 2016 - Dez 2019',
+  },
+  {
+    schoolName: 'Universidade Salvador - UNIFACS',
+    subHeader: 'Bacharelado em Biomedicina',
+    duration: 'Jan 2016 - Dez 2019',
   },
 ];
 
