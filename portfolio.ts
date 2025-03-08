@@ -32,7 +32,7 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'O que faço?',
-  subTitle: 'DESENVOLVO SOLUÇÕES ATRAVÉS DA ENGENHARIA DE SOFTWARE',
+  subTitle: 'Combino ciência e estratégia para gerar resultados!',
   data: [
     {
       title: 'Arquitetura Cloud',
@@ -70,24 +70,24 @@ export const skillsSection: SkillsSectionType = {
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Anhanguera Educacional',
-    subHeader: 'Análise e Desenvolvimento de Sistemas',
-    duration: 'Jan 2021 - April 2023',
-    desc: 'Criar soluções tecnológicas eficientes para atender às necessidades específicas de organizações e usuários.',
+    schoolName: 'Universidade Salvador - UNIFACS',
+    subHeader: 'Bacharelado em Biomedicina',
+    duration: 'Jan 2016 - Dez 2019',
+    desc: '...... para atender às necessidades específicas de organizações e usuários.',
     descBullets: [
-      'Construção efetiva do software;',
-      'Programação, teste, integração de componentes e o uso de tecnologias específicas para a criação do sistema;',
+      'Construção efetiva de.....;',
+      '...... e o uso de tecnologias específicas para a criação do sistema;',
     ],
   },
   {
-    schoolName: 'Rocketseat',
-    subHeader: 'Fullstack Developer, Information Technology',
-    duration: 'Mar 2020 - Jul 2020',
-    desc: 'Desenvolvimento de sistemas Web, utilizando ReactJS no frontend, Node.js para a construção do backend, além do app mobile (Android e iOS) com React Native.',
+    schoolName: 'Universidade Federal da Bahia - UFBA',
+    subHeader: 'Mestrado em Patologia Humana Experimental',
+    duration: 'Jul 2020 - Out 2023',
+    desc: '......ackend, além do app mobile (Android e iOS) com React Native.',
     descBullets: [
-      'Executando aplicações, como banco de dados PostgreSQL, MongoDB (noSQL) em containers Docker.',
-      'Utilizando Styled Components para estilização dos componentes de interface gráfica.',
-      'Context API e Redux para o gerenciamento de estados do React.',
+      '......anco de dados PostgreSQL, MongoDB (noSQL) em containers Docker.',
+      '......ed Components para estilização dos componentes de interface gráfica.',
+      '.......I e Redux para o gerenciamento de estados do React.',
     ],
   },
 ];
