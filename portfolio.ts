@@ -123,25 +123,25 @@ export const experience: ExperienceType[] = [
 
 export const awards: AwardsType[] = [
   {
-    role: 'Consultora Científica de PD&I',
+    role: 'Hackathon GT - Go Create Lab',
     company: 'Gröwnt',
     companyLogo: '/img/icons/common/gtgroup_logo.png',
-    date: 'Dez 2023 - Atualmente',
-    desc: 'Atuo na coleta de dados em reuniões técnicas, identificação de projetos científicos, elaboração de textos técnicos e organização de projetos inovadores, promovendo soluções com base em pesquisa e desenvolvimento.',
+    date: 'Nov 2024',
+    desc: 'Reconhecimento e parabenização por valiosa participação no Hackathon GT, onde demonstrou proatividade, criatividade e habilidade ao desenvolver uma proposta de solução para o desafio Aplicação de Conceitos de Gamificação para aprimorar produtos e processos.',
   },
   {
-    role: 'Consultora Científica de PD&I',
+    role: 'Profissional Inovador',
     company: 'Gröwnt',
     companyLogo: '/img/icons/common/gtgroup_logo.png',
-    date: 'Dez 2023 - Atualmente',
-    desc: 'Atuo na coleta de dados em reuniões técnicas, identificação de projetos científicos, elaboração de textos técnicos e organização de projetos inovadores, promovendo soluções com base em pesquisa e desenvolvimento.',
+    date: 'Out 2024',
+    desc: 'Reconhecimento e parabenização por todas as contribuições realizadas para promover e concretizar a inovação na Gröwnt (antigo GT Group), em especial por atuar ativamente na construção do negócio ao propor uma ideia ao Programa de Sugestão de Ideias do GI.',
   },
   {
-    role: 'Consultora Científica de PD&I',
-    company: 'Gröwnt',
+    role: 'Menção Honrosa - Prêmio Gonçalo Moniz',
+    company: 'Fundação Oswaldo Cruz - Fiocruz',
     companyLogo: '/img/icons/common/ffiocruz_logo.png',
-    date: 'Dez 2023 - Atualmente',
-    desc: 'Atuo na coleta de dados em reuniões técnicas, identificação de projetos científicos, elaboração de textos técnicos e organização de projetos inovadores, promovendo soluções com base em pesquisa e desenvolvimento.',
+    date: 'Abr 2022',
+    desc: 'Menção honrosa pelo trabalho de caracterização do tráfego intracelular de vesículas em neurônios com mutação no gene VPS13B derivados de células tronco pluripotentes humanas induzidas (hiPSCs) de paciente autista não verbal e com deficiência intelectual.',
   },
 ];
 
