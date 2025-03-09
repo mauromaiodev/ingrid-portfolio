@@ -35,7 +35,7 @@ export const skillsSection: SkillsSectionType = {
   title: 'Assessoria e Consultoria Científica',
   data: [
     {
-      title: 'Aos estudantes e acadêmicos',
+      title: 'Aos estudantes e acadêmicos,',
       lottieAnimationFile: '/lottie/skills/working.json',
       skills: [
         emoji(
@@ -96,32 +96,46 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Engenheiro de Software',
-    company: 'Peregrina Investimentos',
+    role: 'Consultora Científica de PD&I',
+    company: 'Gröwnt',
     companyLogo: '/img/icons/common/peregrina-logo.jpg',
     date: 'Dez 2023 - Atualmente',
-    desc: 'Desenvolvimento dos projetos da Peregrina Investimentos com Next 13+, trabalho com foco na acessibilidade através das fontes, cores, contrastes e interatividade das aplicações. Utilizo tecnologias como React, Next 13+, TypeScript, Styled Components, Zod, React Hook Form, Axios, Azure DevOps.',
+    desc: 'Atuo na coleta de dados em reuniões técnicas, identificação de projetos científicos, elaboração de textos técnicos e organização de projetos inovadores, promovendo soluções com base em pesquisa e desenvolvimento.',
   },
   {
-    role: 'Engenheiro de Software',
-    company: 'Saúde TV',
+    role: 'Mentora Local Galáctica',
+    company: 'NASA Space Apps',
+    companyLogo: '/img/icons/common/acp-logo.jpg',
+    date: 'Out 2023 – Atualmente',
+    desc: 'Oriento desenvolvedores de ideias na criação de pitches claros e objetivos, ajudando-os a apresentar ideias com assertividade e impacto.',
+  },
+  {
+    role: 'Monitora de Biologia',
+    company: 'Pré-vestibular Social da Juventude (PJU)',
     companyLogo: '/img/icons/common/saudetv-logo.jpg',
-    date: 'Abr 2023 - Mar 2024',
-    desc: 'Atuando na construção de soluções WEB/API utilizando React, Next, Vue, Nuxt, TypeScript, NodeJS, MongoDB, Mongoose, Express, Styled Components, Sass e Tailwind com foco em performance com SSR e otimizações de SEO.',
+    date: 'Fev 2025 - Atualmente',
+    desc: 'Remotamente, auxilio nas aulas de biologia e implemento estratégias neurocomportamentais para aumentar o engajamento e o aprendizado dos alunos, contribuindo para um ambiente educacional mais eficaz.',
   },
   {
-    role: 'Engenheiro de Software',
+    role: 'Palestrante Convidada',
+    company: 'Universidade Federal de São Paulo - UNIFESP',
+    companyLogo: '/img/icons/common/acp-logo.jpg',
+    date: 'Out 2023',
+    desc: 'Compartilhei minha jornada como cientista, desde a escolha profissional, até as experiências na Patologia Humana Experimental, destacando vivências acadêmicas e estratégias para transição ao ambiente corporativo.',
+  },
+  {
+    role: 'Mestre em Patologia Humana Experimental',
     company: 'ACP Group - Avansys',
     companyLogo: '/img/icons/common/acp-logo.jpg',
-    date: 'Mar 2022 – Abr 2023',
-    desc: 'Desenvolvimento de sistemas Web de alta escala, como os projetos na Secretaria de Educação da Bahia, que registrou milhões de acessos. Utilizei tecnologias como React, Redux, TypeScript, Axios e React Query para desenvolver soluções eficientes e escaláveis.',
+    date: 'Jul 2020 – Out 2022',
+    desc: 'Realizei cultivo e diferenciação celular, extração de DNA/RNA, produção de partículas virais e transfecção de plasmídeos. Também elaborei protocolos científicos e capacitei pessoas em técnicas experimentais específicas.',
   },
   {
-    role: 'Engenheiro de Software',
-    company: 'Kokua IT',
+    role: 'Tirocínio Docente Orientado ao Curso de Graduação de Odontologia',
+    company: 'UFBA',
     companyLogo: '/img/icons/common/kokua-logo.jpg',
-    date: 'Nov 2020 – Mar 2022',
-    desc: 'Fiz parte da equipe de desenvolvimento, criando softwares para a área de gerenciamento de projetos atuando como Fullstack com ênfase em Frontend. Utilizei tecnologias como Vue, Vite, Axios e Vuetify.',
+    date: 'Jul 2021 – Dez 2021',
+    desc: 'Ministrei aulas de tutoria remota sobre mecanismos celulares e teciduais, além de desenvolver materiais didáticos e quizzes para aprimorar a compreensão em patologia.',
   },
 ];
 
