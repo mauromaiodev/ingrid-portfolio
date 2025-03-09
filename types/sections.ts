@@ -62,6 +62,8 @@ export type ExperienceType = {
   descBullets?: string[];
 };
 
+export type AwardsType = ExperienceType;
+
 // * PROJECT SECTION
 
 export type ProjectType = {

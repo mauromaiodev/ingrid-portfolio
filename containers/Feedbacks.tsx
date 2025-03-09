@@ -5,7 +5,7 @@ import { feedbacks } from '../portfolio';
 const Feedbacks = () => {
   return (
     feedbacks && (
-      <section className="section section-lg bg-gradient-grings">
+      <section className="section section-lg bg-gradient-white">
         <Container>
           <div className="d-flex p-4">
             <div>
@@ -14,7 +14,7 @@ const Feedbacks = () => {
               </div>
             </div>
             <div className="pl-4">
-              <h4 className="display-3 text-info  text-white">Feedbacks</h4>
+              <h4 className="display-3 text-info ">Feedbacks</h4>
             </div>
           </div>
           <Row className="row-grid align-items-center">

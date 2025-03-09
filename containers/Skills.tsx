@@ -13,7 +13,7 @@ const Skills = () => {
         <p className="lead">{skillsSection.subTitle}</p>
         {skillsSection.data.map((section, index) => {
           return (
-            <Row className="my-5" key={index}>
+            <Row className="my-5 text-start" key={index}>
               <Col lg="6" className="order-2 order-lg-1">
                 <Fade left duration={2000}>
                   <DisplayLottie animationPath={section.lottieAnimationFile} />
