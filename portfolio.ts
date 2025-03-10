@@ -81,7 +81,7 @@ export const experience: ExperienceType[] = [
     role: 'Consultora Científica de PD&I',
     company: 'Gröwnt',
     companyLogo: '/img/icons/common/gtgroup_logo.png',
-    date: 'Dez 2023 - Atualmente',
+    date: 'Jan 2023 - Atualmente',
     desc: 'Atuo na coleta de dados em reuniões técnicas, identificação de projetos científicos, elaboração de textos técnicos e organização de projetos inovadores, promovendo soluções com base em pesquisa e desenvolvimento.',
   },
   {
