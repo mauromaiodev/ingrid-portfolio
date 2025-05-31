@@ -12,7 +12,7 @@ import {
 
 export const greetings: GreetingsType = {
   name: 'Ingrid Santana',
-  description: `Bem-vindos!\n\nEste espaço reflete a minha paixão pelo mundo microscópico e o meu compromisso com o progresso da ciência, tecnologia e inovação.\n\nDessa forma, quero seguir utilizando meus conhecimentos ao ajudar estudantes e acadêmicos a simplificar o que é complexo.`,
+  description: `Bem-vindos!\n\nMeu objetivo é transformar o complexo em algo acessível, ajudando estudantes, acadêmicos e profissionais a simplificar conceitos e avançar em suas jornadas.`,
   resumeLink:
     'https://drive.google.com/file/d/1qHR7uMPsZcn7iSR0fO8cgDHdV7pk8gmi/view?usp=sharing',
 };
@@ -32,22 +32,22 @@ export const socialLinks: SocialLinksType = {
 };
 
 export const skillsSection: SkillsSectionType = {
-  title: 'Assessoria e Consultoria Científica',
+  title: 'Assessoria e Consultoria Profissional',
   data: [
     {
-      title: 'Aos estudantes e acadêmicos:',
+      title: 'Serviços ofertados',
       lottieAnimationFile: '/lottie/skills/working.json',
       skills: [
-        emoji('🧬 Simplificação de conceitos científicos complexos.'),
-        emoji('🧬 Materiais para projetos e metodologias científicas.'),
-        emoji('🧬 Da teoria à prática com exemplos aplicados.'),
-        emoji('🧬 Auxílio na transição acadêmica para o corporativo.'),
-        emoji('🧬 Mentorias individuais e para equipes.'),
-        emoji('🧬 Workshops e palestras sobre ciência e projetos de pesquisa.'),
-        emoji('🧬 Análise e apresentação de materiais científicos densos.'),
-        emoji('🧬 Estudos de caso e desafios interativos.'),
-        emoji('🧬 Aulas e monitoria em temas especializados.'),
-        emoji('🧬 Experiência em diferentes áreas das ciências biológicas.'),
+        emoji('🧬 Revisão, análise e edição de textos'),
+        emoji('🧬 Elaboração de TCC (Projeto e Desenvolvimento)'),
+        emoji('🧬 Mapas mentais e resumos científicos'),
+        emoji('🧬 Apresentações de seminários e relatórios técnicos'),
+        emoji('🧬 Pesquisas científicas'),
+        emoji('🧬 Treinamento neurocomportamental e oratória'),
+        emoji('🧬 Avaliação e ajustes de currículo'),
+        emoji('🧬 Revisão e otimização de LinkedIn'),
+        emoji('🧬 Identificação de aspectos neurocomportamentais'),
+        emoji('🧬 Palestras e workshops para aprimoramento técnico e profissional'),
       ],
     },
   ],
@@ -78,7 +78,7 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Consultora Científica de PD&I',
+    role: 'Consultora de Inovação',
     company: 'Gröwnt',
     companyLogo: '/img/icons/common/gtgroup_logo.png',
     date: 'Jan 2023 - Atualmente',
@@ -157,13 +157,21 @@ export const feedbacks: FeedbackType[] = [
       'A Ingrid é extremamente profissional, super focada, com inúmeras habilidades, comprometida com os seus resultados e da sua equipe, senso de pertencimento, organização impecável e sabe realizar um ótimo trabalho em equipe. Ela busca conhecimento e esta em constante atualização. Voa Ingrid!',
   },
   {
-    name: 'Bruno Silva',
+    name: 'Maisa Nascimento',
     feedback:
-      'Sempre muito habilidosa, focada e organizada. Visualizei as competências na área acadêmica e profissional.',
+      'Gostaria de expressar minha profunda gratidão à Ingrid, que foi fundamental como coorientadora na elaboração do meu TCC, no qual obtive a excelente nota de 9.8. Sua ajuda foi essencial, especialmente na organização das ideias, na definição de prioridades para a leitura dos artigos e no processo de escrita do trabalho. A banca elogiou muito a qualidade do meu artigo, e isso se deve em grande parte ao apoio e dedicação de Ingrid. Sua orientação cuidadosa e atenção aos detalhes fizeram toda a diferença, e não poderia estar mais satisfeita com o resultado final do meu trabalho. Recomendo a Ingrid de olhos fechados!',
   },
   {
-    name: 'Vanessa Gonçalves',
-    feedback: 'Sempre focada nas entregas e comprometida com o resultado.',
+    name: 'Dyovana Fadel',
+    feedback: 'Tive o privilégio de trabalhar em alguns projetos com a Ingrid e posso afirmar com tranquilidade que ela é daquelas pessoas que elevam o padrão de tudo que tocam. Seu comprometimento com a qualidade, atenção aos detalhes e senso de responsabilidade fazem com que cada entrega vá além do esperado. Além disso, ela tem uma rara habilidade em colaborar com empatia, escuta ativa e clareza. Trabalhar ao lado dela sempre foi sinônimo de fluidez, confiança e resultado. Ela tem um olhar atento para o que pode ser melhorado e não hesita em propor soluções criativas e eficientes, sempre focada em agregar valor nas entregas.',
+  },
+   {
+    name: 'Jean Jesus',
+    feedback: 'Nos últimos meses, passei por um dos momentos mais importantes da minha trajetória profissional: a conquista de uma nova oportunidade no mercado. E, para que esse processo fosse bem-sucedido, contei com o apoio de pessoas incríveis. Uma delas foi a Ingrid Santana.\n\nA Ingrid desempenhou um papel fundamental ao me orientar com dicas valiosas e me ajudar a estruturar minha entrevista de forma clara e objetiva. Seu olhar atento, experiência e conhecimento fizeram toda a diferença para que eu pudesse transmitir meu potencial da melhor maneira possível... ',
+  },
+  {
+    name: 'Leo Ribeiro',
+    feedback: 'Além de seu conhecimento técnico, Ingrid possui uma comunicação extremamente fluida e assertiva, transmitindo segurança para a equipe e para os clientes. Seu senso de organização e responsabilidade é admirável, garantindo que todas as análises e processos sejam conduzidos com precisão e confiabilidade.\n\nO que mais me impressiona é sua proatividade e resiliência. Ingrid encara desafios com uma mentalidade resolutiva e não se intimida diante de cenários incertos. Quando se depara com um problema novo, ela não apenas busca entendê-lo, mas retorna com uma solução bem fundamentada, demonstrando um excelente jogo de cintura para lidar com situações que fogem ao seu controle. Essa habilidade de adaptação e aprendizado contínuo faz dela uma profissional diferenciada.... ',
   },
 ];
 
