@@ -78,10 +78,17 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Consultora de Inovação',
+    role: 'Consultora Sênior de Inovação',
+    company: 'G.A.C Group Brasil',
+    companyLogo: '/img/icons/common/gtgroup_logo.png',
+    date: 'Ago 2025 - Atualmente',
+    desc: 'Oportunização de recursos e estratégias para o progresso científico e tecnológico das empresas, através dos projetos de inovação.',
+  },
+  {
+    role: 'Consultora Junior de Inovação',
     company: 'Gröwnt',
     companyLogo: '/img/icons/common/gtgroup_logo.png',
-    date: 'Jan 2023 - Atualmente',
+    date: 'Jan 2023 - Jul 2025',
     desc: 'Atuo na coleta de dados em reuniões técnicas, identificação de projetos científicos, elaboração de textos técnicos e organização de projetos inovadores, promovendo soluções com base em pesquisa e desenvolvimento.',
   },
   {
