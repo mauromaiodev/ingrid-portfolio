@@ -80,7 +80,7 @@ export const experience: ExperienceType[] = [
   {
     role: 'Consultora Sênior de Inovação',
     company: 'G.A.C Group Brasil',
-    companyLogo: '/img/icons/common/gac_logo.wepb',
+    companyLogo: '/img/icons/common/gac_logo.webp',
     date: 'Ago 2025 - Atualmente',
     desc: 'Oportunização de recursos e estratégias para o progresso científico e tecnológico das empresas, através dos projetos de inovação.',
   },
