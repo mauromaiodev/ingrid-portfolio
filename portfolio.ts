@@ -14,7 +14,7 @@ export const greetings: GreetingsType = {
   name: 'Ingrid Santana',
   description: `Bem-vindos!\n\nMeu objetivo é transformar o complexo em algo acessível, ajudando estudantes, acadêmicos e profissionais a simplificar conceitos e avançar em suas jornadas.`,
   resumeLink:
-    'https://drive.google.com/file/d/1qHR7uMPsZcn7iSR0fO8cgDHdV7pk8gmi/view?usp=sharing',
+    'https://drive.google.com/file/d/11gASlKApcMrUADyMpVcGZeaWRoWEvbj6/view?usp=sharing',
 };
 
 export const openSource = {
