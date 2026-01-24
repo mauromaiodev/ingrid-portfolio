@@ -10,15 +10,19 @@ const Greetings = ({
   githubProfileData: GithubUserType;
 }) => {
   useEffect(() => {
-    document.documentElement.scrollTop = 0;
-    document.scrollingElement!.scrollTop = 0;
-  });
+    if (typeof window !== 'undefined') {
+      document.documentElement.scrollTop = 0;
+      if (document.scrollingElement) {
+        document.scrollingElement.scrollTop = 0;
+      }
+    }
+  }, []);
 
   return (
     <main>
       <div className="position-relative">
         <section className="section section-lg section-shaped pb-250">
-          <div className="shape shape-style-1 bg-gradient-grings">
+          <div className="shape shape-style-1 bg-grings">
             <span />
             <span />
             <span />
@@ -43,22 +47,6 @@ const Greetings = ({
                     {greetings.description}
                   </p>
                   <SocialLinks />
-                  {greetings.resumeLink && (
-                    <div className="btn-wrapper my-4">
-                      <Button
-                        className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                        color="default"
-                        href={greetings.resumeLink}
-                      >
-                        <span className="btn-inner--icon mr-1">
-                          <i className="fa fa-file" />
-                        </span>
-                        <span className="btn-inner--text">
-                          Acesse meu currículo!
-                        </span>
-                      </Button>
-                    </div>
-                  )}
                 </Col>
                 <Col lg="6">
                   {githubProfileData && githubProfileData.avatar_url && (

@@ -27,7 +27,7 @@ const AwardsCard = ({
       lg={centerLastItem ? { size: 6, offset: 3 } : '6'}
       className={centerLastItem ? 'mx-auto' : ''}
     >
-      <Fade left duration={2000}>
+      <Fade left duration={2000} ssrReveal>
         <Card
           style={{ flex: 1 }}
           className="shadow-lg--hover mb-3 shadow border-0 text-center rounded"

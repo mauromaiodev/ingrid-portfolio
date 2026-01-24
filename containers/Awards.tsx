@@ -5,7 +5,7 @@ import { awards } from '../portfolio';
 const Awards = () => {
   return (
     awards && (
-      <section className="section section-lg bg-gradient-grings">
+      <section className="section section-lg bg-grings">
         <Container>
           <div className="d-flex p-4">
             <div>
