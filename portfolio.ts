@@ -78,10 +78,17 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
+    role: 'Analista de Inovação Sênior',
+    company: 'Grupo Aço Cearense',
+    companyLogo: '/img/icons/common/grupo_aco_logo.jpg',
+    date: 'Jan 2026 - Atualmente',
+    desc: 'Oportunização de recursos e estratégias para o progresso científico e tecnológico, através dos projetos de inovação.',
+  },
+  {
     role: 'Consultora Sênior de Inovação',
     company: 'G.A.C Group Brasil',
     companyLogo: '/img/icons/common/gac_logo.webp',
-    date: 'Ago 2025 - Atualmente',
+    date: 'Ago 2025 - Dez 2025',
     desc: 'Oportunização de recursos e estratégias para o progresso científico e tecnológico das empresas, através dos projetos de inovação.',
   },
   {
@@ -172,7 +179,7 @@ export const feedbacks: FeedbackType[] = [
     name: 'Dyovana Fadel',
     feedback: 'Tive o privilégio de trabalhar em alguns projetos com a Ingrid e posso afirmar com tranquilidade que ela é daquelas pessoas que elevam o padrão de tudo que tocam. Seu comprometimento com a qualidade, atenção aos detalhes e senso de responsabilidade fazem com que cada entrega vá além do esperado. Além disso, ela tem uma rara habilidade em colaborar com empatia, escuta ativa e clareza. Trabalhar ao lado dela sempre foi sinônimo de fluidez, confiança e resultado. Ela tem um olhar atento para o que pode ser melhorado e não hesita em propor soluções criativas e eficientes, sempre focada em agregar valor nas entregas.',
   },
-   {
+  {
     name: 'Jean Jesus',
     feedback: 'Nos últimos meses, passei por um dos momentos mais importantes da minha trajetória profissional: a conquista de uma nova oportunidade no mercado. E, para que esse processo fosse bem-sucedido, contei com o apoio de pessoas incríveis. Uma delas foi a Ingrid Santana.\n\nA Ingrid desempenhou um papel fundamental ao me orientar com dicas valiosas e me ajudar a estruturar minha entrevista de forma clara e objetiva. Seu olhar atento, experiência e conhecimento fizeram toda a diferença para que eu pudesse transmitir meu potencial da melhor maneira possível... ',
   },
