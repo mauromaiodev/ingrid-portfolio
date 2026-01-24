@@ -1,4 +1,3 @@
-import Headroom from 'headroom.js';
 import { useEffect, useState } from 'react';
 import {
   Col,
@@ -20,9 +19,16 @@ const Navigation = () => {
   const onExited = () => setCollapseClasses('');
 
   useEffect(() => {
-    let headroom = new Headroom(document.getElementById('navbar-main')!);
-    headroom.init();
-  });
+    if (typeof window !== 'undefined') {
+      import('headroom.js').then((Headroom) => {
+        const navbarElement = document.getElementById('navbar-main');
+        if (navbarElement) {
+          const headroom = new Headroom.default(navbarElement);
+          headroom.init();
+        }
+      });
+    }
+  }, []);
 
   return (
     <>

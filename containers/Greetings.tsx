@@ -10,9 +10,13 @@ const Greetings = ({
   githubProfileData: GithubUserType;
 }) => {
   useEffect(() => {
-    document.documentElement.scrollTop = 0;
-    document.scrollingElement!.scrollTop = 0;
-  });
+    if (typeof window !== 'undefined') {
+      document.documentElement.scrollTop = 0;
+      if (document.scrollingElement) {
+        document.scrollingElement.scrollTop = 0;
+      }
+    }
+  }, []);
 
   return (
     <main>
