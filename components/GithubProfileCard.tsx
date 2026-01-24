@@ -4,7 +4,7 @@ import SocialLinks from './SocialLinks';
 
 const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
   return (
-    <Card className="section-sm bg-gradient-grings shadow-lg border-0">
+    <Card className="section-sm bg-grings shadow-lg border-0">
       <Container className="">
         <div className="p-2">
           <Row className="">
